@@ -1,0 +1,143 @@
+[{
+  "_id": {
+    "$oid": "6377057f6d8f5c5d98b573b8"
+  },
+  "host_id": 1,
+  "property_name": "The Joshua Tree House",
+  "property_type": "Treehouse",
+  "description": "250 sq ft treehouse with stairs leading to 2 lofts with beds overlooking the most gorgeous view of the Silicon Valley. The treehouse opens to a deck 14 foot high nestled in between 3 sycamore trees.Custom made stained glass window and spiral staircase leads up into the tree. Includes full functioning bathroom , kitchenette w sink , cooking stove, mini fridge . Sleeps 4 people. ( 1 queen bed in each open loft) You are living with a live tree in nature so think glamping - an amazing experience.",
+  "summary": "250 sq ft treehouse with stairs leading to 2 lofts with beds overlooking the most gorgeous view of the Silicon Valley.",
+  "room_type": "Entire Property",
+  "max_nights": 30,
+  "min_nights": 5,
+  "max_guests": 12,
+  "bed_count": 4,
+  "bath_count": 3,
+  "cancellation_policy": "strict",
+  "cost": {
+    "per_night": 350,
+    "deposit": 500,
+    "cleaning_fee": 70
+  },
+  "rating": {
+    "overall": 4.6,
+    "cleanliness": 4.9,
+    "communication": 4.2,
+    "check_in": 4.3,
+    "accuracy": 4.6,
+    "location": 5,
+    "value": 4.6
+  },
+  "house_rules": {
+    "check_in": "After 1:00 PM",
+    "check_out": "Before 11:00 AM",
+    "check_in_type": "in-person",
+    "smoking": true,
+    "parties": true,
+    "pets": false,
+    "additional_notes": "N/A"
+  },
+  "property_address": {
+    "street": "345, Hudson Street",
+    "unit_no": "34",
+    "city": "San Jose",
+    "state": "California",
+    "zip": 85793,
+    "country": "United States of America",
+    "distance_from_city_center": 30,
+    "coordinates": {
+      "lat": 454.5634343,
+      "lng": 344.4345445
+    }
+  },
+  "images": [
+    {
+      "image_id": 1,
+      "image_name": "jbnu5.jpg",
+      "image_url": "img/jbnu5.jpg",
+      "image_description": "Custom made stained glass window and spiral staircase leads up into the tree",
+      "is_deleted": false
+    }
+  ],
+  "amenities": [
+    "In-Unit Laundry",
+    "Kitchen",
+    "Air-conditioning",
+    "Balcony"
+  ],
+  "reviews": [
+    "Amazing place",
+    "Loved the place"
+  ]
+},{
+  "_id": {
+    "$oid": "6377057f6d8f5c5d98b573b9"
+  },
+  "host_id": 2,
+  "property_name": "Mushroom Dome Cabin",
+  "property_type": "Apartment",
+  "description": "Make this cozy studio apartment your home base as you explore Austin’s vibrant Hyde Park neighborhood. Indulge in classic Austin fair from nearby coffee shops, pizza joints, and beloved neighborhood bars all a quick walk, scooter ride, or Uber away. This apartment comfortably welcomes two guests who want to try everything Austin has to offer.",
+  "summary": "Make this cozy studio apartment your home base as you explore Austin’s vibrant Hyde Park neighborhood.",
+  "room_type": "Entire Property",
+  "max_nights": 15,
+  "min_nights": 2,
+  "max_guests": 8,
+  "bed_count": 2,
+  "bath_count": 2,
+  "cancellation_policy": "flexible",
+  "cost": {
+    "per_night": 100,
+    "deposit": 200,
+    "cleaning_fee": 50
+  },
+  "rating": {
+    "overall": 4.5,
+    "cleanliness": 4.6,
+    "communication": 4.6,
+    "check_in": 4,
+    "accuracy": 4,
+    "location": 5,
+    "value": 5
+  },
+  "house_rules": {
+    "check_in": "After 1:00 PM",
+    "check_out": "Before 11:00 AM",
+    "check_in_type": "passcode",
+    "smoking": true,
+    "parties": true,
+    "pets": false,
+    "additional_notes": "N/A"
+  },
+  "property_address": {
+    "street": "100, Southside Street",
+    "unit_no": "2",
+    "city": "Austin",
+    "state": "Texas",
+    "zip": 43984,
+    "country": "United States of America",
+    "distance_from_city_center": 2,
+    "coordinates": {
+      "lat": 223.4343434,
+      "lng": 112.3443434
+    }
+  },
+  "images": [
+    {
+      "image_id": 2,
+      "image_name": "jbnu2.jpg",
+      "image_url": "img/jbnu2.jpg",
+      "image_description": "View from the balcony",
+      "is_deleted": false
+    }
+  ],
+  "amenities": [
+    "Wifi",
+    "Pool",
+    "Air-conditioning",
+    "Balcony"
+  ],
+  "reviews": [
+    "100% Recommended place",
+    "Loved the area"
+  ]
+}]

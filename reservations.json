@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "637706306d8f5c5d98b573be"
+  },
+  "start_date": "2022-11-16",
+  "end_date": "2022-11-24",
+  "status": "ongoing",
+  "receipt_url": "/receipt/abc.pdf",
+  "transaction_id": "1234",
+  "host": {
+    "host_id": "1",
+    "host_name": "Joshua Summer"
+  },
+  "guest": {
+    "guest_id": "56840",
+    "guest_name": "Mark John"
+  },
+  "property": {
+    "property_id": "6377057f6d8f5c5d98b573b8",
+    "property_name": "The Joshua Tree House"
+  }
+},{
+  "_id": {
+    "$oid": "637706306d8f5c5d98b573bf"
+  },
+  "start_date": "2022-12-28",
+  "end_date": "2023-1-3",
+  "status": "upcoming",
+  "receipt_url": "receipt/vlvn.pdf",
+  "transaction_id": "9583",
+  "host": {
+    "host_id": "2",
+    "host_name": "Jenny Penny"
+  },
+  "guest": {
+    "guest_id": "85902",
+    "guest_name": "Clair Hsu"
+  },
+  "property": {
+    "property_id": "6377057f6d8f5c5d98b573b9",
+    "property_name": "Mushroom Dome Cabin"
+  }
+},{
+  "_id": {
+    "$oid": "637706306d8f5c5d98b573c0"
+  },
+  "start_date": "2022-04-27",
+  "end_date": "2022-05-4",
+  "status": "ended",
+  "receipt_url": "receipt/hfknv.pdf",
+  "transaction_id": "86930",
+  "host": {
+    "host_id": "1",
+    "host_name": "Shaddy Park"
+  },
+  "guest": {
+    "guest_id": "85902",
+    "guest_name": "Clair Hsu"
+  },
+  "property": {
+    "property_id": "6377057f6d8f5c5d98b573b8",
+    "property_name": "The Joshua Tree House"
+  }
+},{
+  "_id": {
+    "$oid": "637706306d8f5c5d98b573c1"
+  },
+  "start_date": "2021-12-3",
+  "end_date": "2021-12-15",
+  "status": "ended",
+  "receipt_url": "receipt/hvne.pdf",
+  "transaction_id": "201975",
+  "host": {
+    "host_id": "2",
+    "host_name": "Jenny Penny"
+  },
+  "guest": {
+    "guest_id": "56840",
+    "guest_name": "Mark John"
+  },
+  "property": {
+    "property_id": "6377057f6d8f5c5d98b573b9",
+    "property_name": "Mushroom Dome Cabin"
+  }
+}]
