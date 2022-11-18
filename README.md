@@ -1,6 +1,11 @@
 # MilesNStay-API
 
 ## Installation 
-
-> npm install 
-> nodemon
+  
+  ```
+  npm install
+  ```
+  
+  ```
+  nodemon
+  ```
