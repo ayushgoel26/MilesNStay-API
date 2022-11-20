@@ -2,33 +2,37 @@
 
 ## Starting Mongo DB Instance
 
-Start the mongo DB instance locally using mongod or homebrew
+1. Start the MongoDB instance locally using mongod or homebrew
 
-For Mac Users:
-  
+2. Load the dump to MongoDB
+
+The following steps (for MacOS/Windows) will create a new database “milesNstay” on the mongoDB instance running, and populate the properties and reservation collection with initial data.
+
+**For MacOS Users:** 
+
   Go to the directory containing the dump folder and execute the following command:
 
-  > ```mongorestore -d milesNstay ./milesNstay```
-  
-  This will create a new database “milesNstay” on the local mongoDB instance running, and populate the properties and reservation collection with initial data.
+```sh
+mongorestore -d milesNstay ./milesNstay
+```
 
-For windows Users:
+**For Windows Users:**
 
-    1.	Go to https://www.mongodb.com/try/download/database-tools, and download the “MongoDB Database Tools” zip file for windows.
+    1. Go to [MongoDB Tools Download Link](https://www.mongodb.com/try/download/database-tools), and download the “MongoDB Database Tools” zip file for windows.
 
-    2.	Open Control Panel
+    2. Open Control Panel
     
-    3.	In the Systems and Security category, click System.
+    3. In the Systems and Security category, click System.
     
-    4.	Click Advanced system settings. The System Properties modal displays.
+    4. Click Advanced system settings. The System Properties modal displays.
     
-    5.	Click Environment Variables.
+    5. Click Environment Variables.
+
+    6. In the System variables section, select Path and click Edit. The Edit environment variable modal displays.
     
-    6.	In the System variables section, select Path and click Edit. The Edit environment variable modal displays.
+    7. Click New and add the filepath to the location where you installed the Database Tools.
     
-    7.	Click New and add the filepath to the location where you installed the Database Tools.
-    
-    8.	Click OK to confirm your changes. On each other modal, click OK to confirm your changes.	
+    8. Click OK to confirm your changes. On each other modal, click OK to confirm your changes.	
 
 ## Running the server
 
@@ -57,6 +61,9 @@ Request Body :
 ```json 
  {
     "data": {
+        "_id": {
+            "$oid": "6377d88619b36f9c3852ee50"
+        },
         "host_id": 3,
         "property_name": "Santana Row Loft",
         "property_type": "Condo",
