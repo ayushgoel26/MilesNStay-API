@@ -5,9 +5,22 @@ var monk = require('monk');
 var db = monk('localhost:27017/milesNstay');
 
 /* GET reservations according to guest id. */
+router.get('/', function(req, res) {
+  if (req.query.userid == null){
+    res.json({'msg': '"userid" not defined in query parameters'});
+  } else {
+    var collection = db.get('reservations');
+    collection.find({"guest.guest_id": req.query.userid}, function(err, reservations){
+      if(err) throw err;
+      res.json(reservations);
+    });
+  }
+});
+
+/* GET reservations according to reservation id. */
 router.get('/:id', function(req, res) {
   var collection = db.get('reservations');
-  collection.find({"guest.guest_id": req.params.id}, function(err, reservations){
+  collection.findOne({"_id": req.params.id}, function(err, reservations){
       if(err) throw err;
       res.json(reservations);
   });
@@ -17,8 +30,8 @@ router.get('/:id', function(req, res) {
 router.post('/', function(req, res) {
   var collection = db.get('reservations');
   collection.insert(req.body.data, function(err, reservation) {
-    if(err) throw err;
-    res.json({"reservation_id": reservation._id});
+    if(err) res.json({'msg': err});
+    else    res.json({"reservation_id": reservation._id});
   });
 });
 

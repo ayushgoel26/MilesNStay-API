@@ -13,7 +13,7 @@ router.get('/', function(req, res) {
   });
 });
 
-/* GET listings according to id. */
+/* GET property for a property id. */
 router.get('/:id', function(req, res) {
   var collection = db.get('properties');
   collection.findOne({"_id": req.params.id}, function(err, properties){

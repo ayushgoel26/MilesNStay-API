@@ -19,19 +19,12 @@ mongorestore -d milesNstay ./milesNstay
 **For Windows Users:**
 
     1. Go to [MongoDB Tools Download Link](https://www.mongodb.com/try/download/database-tools), and download the “MongoDB Database Tools” zip file for windows.
-
     2. Open Control Panel
-    
     3. In the Systems and Security category, click System.
-    
     4. Click Advanced system settings. The System Properties modal displays.
-    
     5. Click Environment Variables.
-
     6. In the System variables section, select Path and click Edit. The Edit environment variable modal displays.
-    
     7. Click New and add the filepath to the location where you installed the Database Tools.
-    
     8. Click OK to confirm your changes. On each other modal, click OK to confirm your changes.	
 
 ## Running the server
@@ -61,9 +54,7 @@ Request Body :
 ```json 
  {
     "data": {
-        "_id": {
-            "$oid": "6377d88619b36f9c3852ee50"
-        },
+        "_id":"6377d88619b36f9c3852ee50",
         "host_id": 3,
         "property_name": "Santana Row Loft",
         "property_type": "Condo",
@@ -171,7 +162,7 @@ Request Body
 
 ## Reservations Collection:
 
-### Retrieve reservation by guest User ID
+### Retrieve all reservations for a guest ID
 
 | Method  | URL  |
 | :------------ |:---------------:|
