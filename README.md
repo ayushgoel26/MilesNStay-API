@@ -191,7 +191,7 @@ In the above url "56840" is the guest ID
 
 | Method  | URL  |
 | :------------ |:---------------:|
-| POST  | http://localhost:3000/reservations/637706306d8f5c5d98b573be | 
+| GET  | http://localhost:3000/reservations/637706306d8f5c5d98b573be | 
 
 In the above url "637a7a62e46ad9d20fd512a6" is the reservation ID
 
