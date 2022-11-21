@@ -44,6 +44,14 @@ mongorestore -d milesNstay ./milesNstay
 | :------------ |:---------------:|
 | GET  | http://localhost:3000/properties | 
 
+### Retrieve single property based on Property ID
+
+| Method  | URL  |
+| :------------ |:---------------:|
+| GET  | http://localhost:3000/properties/6377d88619b36f9c3852ee50 | 
+
+In the above url "6377d88619b36f9c3852ee50" is the Property ID
+
 ### Insert a new property
 
 | Method  | URL  |
@@ -166,7 +174,17 @@ Request Body
 
 | Method  | URL  |
 | :------------ |:---------------:|
-| GET  | http://localhost:3000/reservations/56840 | 
+| GET  | http://localhost:3000/reservations?userid=56840 | 
+
+In the above url "56840" is the guest ID
+
+### Retrieve single reservation based on Reservation ID
+
+| Method  | URL  |
+| :------------ |:---------------:|
+| POST  | http://localhost:3000/reservations/637a7a62e46ad9d20fd512a6 | 
+
+In the above url "637a7a62e46ad9d20fd512a6" is the reservation ID
 
 ### Insert a new reservation
 
