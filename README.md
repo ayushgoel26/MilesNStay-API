@@ -33,8 +33,16 @@ mongorestore -d milesNstay ./milesNstay_dump
     2. Run command npm install
     3. Run command nodemon to start the server
 
-
 # Testing the API endpoints using PostMan
+
+## Import API Collection to PostMan
+
+    1. Navigate to the Files menu 
+    2. Select import. 
+    3. Upload postman-api-collection.json to PostMan.  
+    4. Now you can access all the APIs. 
+
+## Create own API in PostMan
 
 ## Properties Collection:
 
