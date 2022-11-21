@@ -39,8 +39,9 @@ mongorestore -d milesNstay ./milesNstay_dump
 
     1. Navigate to the Files menu 
     2. Select import. 
-    3. Upload postman-api-collection.json to PostMan.  
-    4. Now you can access all the APIs. 
+    3. Upload postman-api-collection.json to PostMan. 
+    4. Select Assignment-4 as the collection to import.  
+    5. Now you can access all the APIs. 
 
 ## Create own API in PostMan
 
