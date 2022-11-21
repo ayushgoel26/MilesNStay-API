@@ -69,9 +69,8 @@ In the above url "6377057f6d8f5c5d98b573b8" is the Property ID
 
 Request Body :
 ```json 
- {
+{
     "data": {
-        "_id":"6377d88619b36f9c3852ee50",
         "host_id": 3,
         "property_name": "Santana Row Loft",
         "property_type": "Condo",
@@ -152,7 +151,7 @@ Request Body :
 Request Body
 
 ```json
- {
+{
     "query": {
         "property_name": "The Joshua Tree House"
     },
@@ -183,9 +182,9 @@ Request Body
 
 | Method  | URL  |
 | :------------ |:---------------:|
-| GET  | http://localhost:3000/reservations?userid=56840 | 
+| GET  | http://localhost:3000/reservations?userid=85902 | 
 
-In the above url "56840" is the guest ID
+In the above url "85902" is the guest ID
 
 ### Retrieve single reservation based on Reservation ID
 

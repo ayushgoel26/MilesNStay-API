@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "c069cce6-3c3b-4092-a3e9-008edc27c78b",
+		"_postman_id": "c6405359-e33b-4e73-ae0d-4c816427a630",
 		"name": "Assignment4",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "12065011"
@@ -38,13 +38,33 @@
 			"response": []
 		},
 		{
+			"name": "Show Property given Property ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/properties/6377d88619b36f9c3852ee50",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"properties",
+						"6377d88619b36f9c3852ee50"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Add a property",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": " {\n    \"data\": {\n        \"_id\": \"6377d88619b36f9c3852ee50\",\n        \"host_id\": 3,\n        \"property_name\": \"Santana Row Loft\",\n        \"property_type\": \"Condo\",\n        \"description\": \"The very spacious open concept condo is over 1090 sq feet of space to enjoy the view from below. This loft unit includes 1 parking spot and a key less door entrance for your convenience and safety. Tall airy ceiling and minimalist decor, VIP guests can unwind after a long day of work/entertainment. The 8 people dining table serves as conference area and work space for remote workers.\",\n        \"summary\": \"The very spacious open concept condo is over 1090 sq feet of space to enjoy the view from below.\",\n        \"room_type\": \"Entire Apartment\",\n        \"max_nights\": 10,\n        \"min_nights\": 2,\n        \"max_guests\": 4,\n        \"bed_count\": 2,\n        \"bath_count\": 2,\n        \"cancellation_policy\": \"strict\",\n        \"cost\": {\n            \"per_night\": 200,\n            \"deposit\": 300,\n            \"cleaning_fee\": 100\n        },\n        \"rating\": {\n            \"overall\": 4.9,\n            \"cleanliness\": 4.9,\n            \"communication\": 4.9,\n            \"check_in\": 4.8,\n            \"accuracy\": 4.8,\n            \"location\": 5,\n            \"value\": 5\n        },\n        \"house_rules\": {\n            \"check_in\": \"After 1:00 PM\",\n            \"check_out\": \"Before 11:00 AM\",\n            \"check_in_type\": \"in-person\",\n            \"smoking\": false,\n            \"parties\": false,\n            \"pets\": true,\n            \"additional_notes\": \"N/A\"\n        },\n        \"property_address\": {\n            \"street\": \"100, Southside Street\",\n            \"unit_no\": \"2\",\n            \"city\": \"San Antonio\",\n            \"state\": \"Texas\",\n            \"zip\": 49844,\n            \"country\": \"United States of America\",\n            \"distance_from_city_center\": 10,\n            \"coordinates\": {\n                \"lat\": 333.4343434,\n                \"lng\": 32.3443434\n            }\n        },\n        \"images\": [\n            {\n                \"image_id\": 3,\n                \"image_name\": \"jbnu6.jpg\",\n                \"image_url\": \"img/jbnu6.jpg\",\n                \"image_description\": \"View from the condo\",\n                \"is_deleted\": false\n            }\n        ],\n        \"amenities\": [\n            \"Wifi\",\n            \"Pool\",\n            \"Air-conditioning\",\n            \"Balcony\"\n        ],\n        \"reviews\": [\n            \"Modern and elegant.\",\n            \"Best weekend getaway\"\n        ]\n    }\n}",
+					"raw": " {\n    \"data\": {\n        \"host_id\": 3,\n        \"property_name\": \"Santana Row Loft\",\n        \"property_type\": \"Condo\",\n        \"description\": \"The very spacious open concept condo is over 1090 sq feet of space to enjoy the view from below. This loft unit includes 1 parking spot and a key less door entrance for your convenience and safety. Tall airy ceiling and minimalist decor, VIP guests can unwind after a long day of work/entertainment. The 8 people dining table serves as conference area and work space for remote workers.\",\n        \"summary\": \"The very spacious open concept condo is over 1090 sq feet of space to enjoy the view from below.\",\n        \"room_type\": \"Entire Apartment\",\n        \"max_nights\": 10,\n        \"min_nights\": 2,\n        \"max_guests\": 4,\n        \"bed_count\": 2,\n        \"bath_count\": 2,\n        \"cancellation_policy\": \"strict\",\n        \"cost\": {\n            \"per_night\": 200,\n            \"deposit\": 300,\n            \"cleaning_fee\": 100\n        },\n        \"rating\": {\n            \"overall\": 4.9,\n            \"cleanliness\": 4.9,\n            \"communication\": 4.9,\n            \"check_in\": 4.8,\n            \"accuracy\": 4.8,\n            \"location\": 5,\n            \"value\": 5\n        },\n        \"house_rules\": {\n            \"check_in\": \"After 1:00 PM\",\n            \"check_out\": \"Before 11:00 AM\",\n            \"check_in_type\": \"in-person\",\n            \"smoking\": false,\n            \"parties\": false,\n            \"pets\": true,\n            \"additional_notes\": \"N/A\"\n        },\n        \"property_address\": {\n            \"street\": \"100, Southside Street\",\n            \"unit_no\": \"2\",\n            \"city\": \"San Antonio\",\n            \"state\": \"Texas\",\n            \"zip\": 49844,\n            \"country\": \"United States of America\",\n            \"distance_from_city_center\": 10,\n            \"coordinates\": {\n                \"lat\": 333.4343434,\n                \"lng\": 32.3443434\n            }\n        },\n        \"images\": [\n            {\n                \"image_id\": 3,\n                \"image_name\": \"jbnu6.jpg\",\n                \"image_url\": \"img/jbnu6.jpg\",\n                \"image_description\": \"View from the condo\",\n                \"is_deleted\": false\n            }\n        ],\n        \"amenities\": [\n            \"Wifi\",\n            \"Pool\",\n            \"Air-conditioning\",\n            \"Balcony\"\n        ],\n        \"reviews\": [\n            \"Modern and elegant.\",\n            \"Best weekend getaway\"\n        ]\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -67,33 +87,13 @@
 			"response": []
 		},
 		{
-			"name": "Show Property given Property ID",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:3000/properties/6377d88619b36f9c3852ee50",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"properties",
-						"6377d88619b36f9c3852ee50"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Update a property",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"query\": {\n        \"property_name\": \"Santana Row Loft\"\n    },\n    \"newValue\": {\n        \"property_type\": \"Condominium\", \n        \"host_id\": 5\n    }\n}",
+					"raw": "{\n    \"query\": {\n        \"property_name\": \"The Joshua Tree House\"\n    },\n    \"newValue\": {\n        \"property_type\": \"Apartment\",\n        \"bed_count\": 10\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -168,6 +168,26 @@
 			"response": []
 		},
 		{
+			"name": "Show Reservation given Reservation ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/reservations/637a7a62e46ad9d20fd512a6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"reservations",
+						"637a7a62e46ad9d20fd512a6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Add a reservation",
 			"request": {
 				"method": "POST",
@@ -196,33 +216,13 @@
 			"response": []
 		},
 		{
-			"name": "Show Reservation given Reservation ID",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:3000/reservations/637a7a62e46ad9d20fd512a6",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"reservations",
-						"637a7a62e46ad9d20fd512a6"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Update a reservation",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"query\": {\n        \"_id\": \"637a7a62e46ad9d20fd512a6\"\n    },\n    \"newValue\": {\n        \"status\": \"upcoming\"\n    }\n}",
+					"raw": "{\n    \"query\": {\n        \"status\": \"pending\"\n    },\n    \"newValue\": {\n        \"status\": \"upcoming\"\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -251,7 +251,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"query\": {\n        \"_id\": \"637a7a62e46ad9d20fd512a6\"\n    }\n}",
+					"raw": "{\n    \"query\": {\n        \"status\": \"ended\"\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
