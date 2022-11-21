@@ -121,7 +121,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"query\": {\n        \"_id\": \"6377d88619b36f9c3852ee50\"\n    }\n}",
+					"raw": "{\n    \"query\": {\n        \"property_name\": \"The Joshua Tree House\"\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -148,7 +148,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/reservations?userid=56840",
+					"raw": "http://localhost:3000/reservations?userid=85902",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -160,7 +160,7 @@
 					"query": [
 						{
 							"key": "userid",
-							"value": "56840"
+							"value": "85902"
 						}
 					]
 				}
@@ -173,7 +173,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/reservations/637a7a62e46ad9d20fd512a6",
+					"raw": "http://localhost:3000/reservations/637706306d8f5c5d98b573bf",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -181,7 +181,7 @@
 					"port": "3000",
 					"path": [
 						"reservations",
-						"637a7a62e46ad9d20fd512a6"
+						"637706306d8f5c5d98b573bf"
 					]
 				}
 			},
@@ -194,7 +194,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"data\": {\n        \"_id\": \"637a7a62e46ad9d20fd512a6\", \n        \"start_date\": \"2022-11-26\",\n        \"end_date\": \"2022-11-29\",\n        \"status\": \"pending\",\n        \"receipt_url\": \"/receipt/hghjhg.pdf\",\n        \"transaction_id\": \"947974\",\n        \"host\": {\n            \"host_id\": \"2\",\n            \"host_name\": \"Jenny Penny\"\n        },\n        \"guest\": {\n            \"guest_id\": \"241295\",\n            \"guest_name\": \"Reva Gupta\"\n        },\n        \"property\": {\n            \"property_id\": \"637728460dc7486e05a03760\",\n            \"property_name\": \"Santana Row Loft\"\n        }\n    }\n}",
+					"raw": "{\n    \"data\": {\n        \"start_date\": \"2022-11-26\",\n        \"end_date\": \"2022-11-29\",\n        \"status\": \"pending\",\n        \"receipt_url\": \"/receipt/hghjhg.pdf\",\n        \"transaction_id\": \"947974\",\n        \"host\": {\n            \"host_id\": \"2\",\n            \"host_name\": \"Jenny Penny\"\n        },\n        \"guest\": {\n            \"guest_id\": \"241295\",\n            \"guest_name\": \"Reva Gupta\"\n        },\n        \"property\": {\n            \"property_id\": \"637728460dc7486e05a03760\",\n            \"property_name\": \"Santana Row Loft\"\n        }\n    }\n}",
 					"options": {
 						"raw": {
 							"language": "json"
