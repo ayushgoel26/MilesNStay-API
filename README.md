@@ -10,7 +10,7 @@ The following steps (for MacOS/Windows) will create a new database “milesNstay
 
 **For MacOS Users:** 
 
-  Go to the directory containing the dump folder and execute the following command:
+  Change into the unzipped directory MilesNStay-API and execute the following command:
 
 ```sh
 mongorestore -d milesNstay ./milesNstay_dump
@@ -48,9 +48,9 @@ mongorestore -d milesNstay ./milesNstay_dump
 
 | Method  | URL  |
 | :------------ |:---------------:|
-| GET  | http://localhost:3000/properties/6377d88619b36f9c3852ee50 | 
+| GET  | http://localhost:3000/properties/6377057f6d8f5c5d98b573b8 | 
 
-In the above url "6377d88619b36f9c3852ee50" is the Property ID
+In the above url "6377057f6d8f5c5d98b573b8" is the Property ID
 
 ### Insert a new property
 
@@ -163,7 +163,7 @@ Request Body
 ```json
 {
     "query": {
-        "_id": "6377d88619b36f9c3852ee50"
+        "property_name": "The Joshua Tree House"
     }
 }
 ``` 
@@ -182,7 +182,7 @@ In the above url "56840" is the guest ID
 
 | Method  | URL  |
 | :------------ |:---------------:|
-| POST  | http://localhost:3000/reservations/637a7a62e46ad9d20fd512a6 | 
+| POST  | http://localhost:3000/reservations/637706306d8f5c5d98b573be | 
 
 In the above url "637a7a62e46ad9d20fd512a6" is the reservation ID
 
@@ -228,7 +228,7 @@ Request Body
 ```json
 {
     "query": {
-        "_id": "637834c2333abf157443f325"
+        "status": "pending"
     },
     "newValue": {
         "status": "upcoming"
@@ -246,7 +246,7 @@ Request Body
 ```json
 {
     "query": {
-        "_id": "6377d8e419b36f9c3852ee51"
+        "status": "ended"
     }
 }
 ``` 
