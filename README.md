@@ -13,7 +13,7 @@ The following steps (for MacOS/Windows) will create a new database “milesNstay
   Go to the directory containing the dump folder and execute the following command:
 
 ```sh
-mongorestore -d milesNstay ./milesNstay
+mongorestore -d milesNstay ./milesNstay_dump
 ```
 
 **For Windows Users:**
